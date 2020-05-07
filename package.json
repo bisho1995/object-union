@@ -18,20 +18,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/bisho1995/object-union.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/bisho1995/object-union/issues"
   },
   "keywords": [
-    "once",
-    "function",
-    "wait",
-    "until",
-    "timer",
-    "function timer"
+    "objects",
+    "union",
+    "merge",
+    "join",
+    "nested-objects"
   ],
-  "homepage": "https://github.com/bisho1995/waituntil",
+  "homepage": "https://github.com/bisho1995/object-union",
   "licenses": "MIT",
   "devDependencies": {
     "@types/node": "^13.13.5",
