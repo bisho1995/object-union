@@ -1,5 +1,6 @@
 {
   "name": "object-union",
+  "description": "Merge two or more objects non destructively and retain all properties",
   "version": "1.0.1",
   "main": "index.js",
   "types": "index.d.ts",
