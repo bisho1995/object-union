@@ -1,7 +1,7 @@
 {
   "name": "object-union",
   "description": "Merge two or more objects non destructively and retain all properties",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "main": "index.js",
   "types": "index.d.ts",
   "author": "Bisvarup Mukherjee <codeworks0301@gmail.com>",
@@ -9,8 +9,10 @@
   "scripts": {
     "compile": "tsc --declaration index.ts",
     "prepublishOnly": "npm run compile",
-    "publish": "npm publish",
-    "test": "mocha tests"
+    "publish": "npm run std",
+    "test": "mocha tests",
+    "std": "yarn standard-version",
+    "poststd": "git push --follow-tags origin master && npm publish"
   },
   "files": [
     "index.js",
@@ -35,6 +37,7 @@
   "devDependencies": {
     "@types/node": "^13.13.5",
     "mocha": "^7.1.2",
+    "standard-version": "^8.0.0",
     "tsc": "^1.20150623.0",
     "typescript": "^3.8.3"
   }
