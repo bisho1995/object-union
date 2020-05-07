@@ -1,0 +1,40 @@
+{
+  "name": "object-union",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "author": "Bisvarup Mukherjee <codeworks0301@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc --declaration index.ts",
+    "prepublishOnly": "npm run compile",
+    "publish": "npm publish"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [
+    "once",
+    "function",
+    "wait",
+    "until",
+    "timer",
+    "function timer"
+  ],
+  "homepage": "https://github.com/bisho1995/waituntil",
+  "licenses": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "mocha": "^7.1.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.8.3"
+  }
+}
