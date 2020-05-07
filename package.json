@@ -1,6 +1,6 @@
 {
   "name": "object-union",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "types": "index.d.ts",
   "author": "Bisvarup Mukherjee <codeworks0301@gmail.com>",
