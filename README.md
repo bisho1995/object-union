@@ -20,7 +20,7 @@ const res = union(obj1, obj2);
 console.log(res)
 ```
 
-Output will be
+Output:
 
 ```
 { a: "AA", b: "BB" }
@@ -40,7 +40,7 @@ const res = union(obj1, obj2);
 console.log(res)
 ```
 
-Output will be
+Output:
 
 ```
 { prop: { a: 2, b: 2, c: 3 } }
