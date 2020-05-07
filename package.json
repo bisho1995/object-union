@@ -8,8 +8,6 @@
   "license": "MIT",
   "scripts": {
     "compile": "tsc --declaration index.ts",
-    "prepublishOnly": "npm run compile",
-    "publish": "npm run std",
     "test": "mocha tests",
     "std": "yarn standard-version",
     "poststd": "git push --follow-tags origin master && npm publish"
