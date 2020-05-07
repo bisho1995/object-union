@@ -1,3 +1,4 @@
+// @ts-ignore
 function unionObject() {
     var args = [];
     for (var _i = 0; _i < arguments.length; _i++) {
@@ -9,7 +10,6 @@ function unionObject() {
     if (notObjects.length)
         throw new Error("All the parameters should be an object. Non objects and arrays are not permitted");
     var finalOjb = args.reduce(function (acc, obj) {
-        console.log({acc})
         var keys = Object.keys(obj);
         keys.forEach(function (key) {
             var val;
@@ -21,10 +21,8 @@ function unionObject() {
             }
             acc[key] = val;
         });
-
-        return acc
+        return acc;
     }, {});
     return finalOjb;
 }
-var obj1 = { a: "", b: "b1" ,d: {a:1,b:2}}, obj2 = { a: "a", b: "", c: "CC",d: {b:3,d:1} };
-console.log(unionObject(obj1, obj2));
+module.exports = unionObject;
